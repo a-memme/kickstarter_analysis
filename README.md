@@ -1,3 +1,4 @@
+<img width="440" alt="filtering_outcomes" src="https://user-images.githubusercontent.com/79600550/109406972-5295f700-794b-11eb-9909-299ff5f158f4.png">
 # Kickstarting with Excel
 ## Overview of Project 
 Performing analysis on kickstarter data, with specific interest in campaign outcomes in relation to their launch dates and funding goals.
