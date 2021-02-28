@@ -7,7 +7,7 @@ To discover and provide insight on how the financial goals and launch dates of t
 ### Analysis of Outcomes Based on Launch Date 
 In order to perform analysis on theatre outcomes based on their launch dates, I isolated a number of variables from the dataset using a Pivot Table in Excel. Before this could be done, a new column of data needed to be created using the YEAR function in Excel to create data for the general year of the campaigns' respective launch dates (picture below).
 
-![YEAR_function](macintosh hd/users/memme11/desktop/resources/YEAR_function.png)
+![YEAR_function](desktop/resources/YEAR_function.png)
 
 In creating a Pivot Table, I filtered for Parent Category - specifying only theatres - and for Years. Outcomes were placed in the columns field to display all the possible outcomes to be analyzed as well as in the sum of values field in order to display the data we're interested in regarding these outcomes. The date created conversion data was placed in the rows field to show all months in the table, relative to the number of successful, failed, canceled, and grand total theatre campaigns.
 
