@@ -7,19 +7,19 @@ To discover and provide insight on how the financial goals and launch dates of t
 ### Analysis of Outcomes Based on Launch Date 
 In order to perform analysis on theatre outcomes based on their launch dates, I isolated a number of variables from the dataset using a Pivot Table in Excel. Before this could be done, a new column of data needed to be created using the YEAR function in Excel to create data for the general year of the campaigns' respective launch dates (picture below).
 
-![YEAR_function](desktop/resources/YEAR_function.png)
+![YEAR_function](Desktop/Resources/YEAR_function.png)
 
 In creating a Pivot Table, I filtered for Parent Category - specifying only theatres - and for Years. Outcomes were placed in the columns field to display all the possible outcomes to be analyzed as well as in the sum of values field in order to display the data we're interested in regarding these outcomes. The date created conversion data was placed in the rows field to show all months in the table, relative to the number of successful, failed, canceled, and grand total theatre campaigns.
 
-![Pivot_table_theatre](macintosh hd/users/memme11/desktop/resources/Pivot_table_theatre.png)
+![Pivot_table_theatre](Desktop/Resources/Pivot_table_theatre.png)
 
 The outcomes were then filtered to display only successful, failed, and canceled campaigns (foregoing live), and sorted in descending order.
 
-![filtering_outcomes](macintosh hd/users/memme11/desktop/resources/filtering_outcomes.png)
+![filtering_outcomes](Desktop/Resources/filtering_outcomes.png)
 
 From here, I was able to visualize the sorted data by inserting a line graph with markers.
 
-![theater_outcomes_vs_launch](macintosh hd/users/memme11/desktop/resources/theater_outcomes_vs_launch.png)
+![theater_outcomes_vs_launch](Desktop/Resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 
 
