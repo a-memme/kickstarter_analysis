@@ -36,16 +36,18 @@ Using the SUM function, the total number of projects were calculated for each fi
 To visualize the data, a line graph was created based on the previously curated financial goal categorizations and the percentage of successful, failed, and canceled campaigns.
 
 ### Challenges and Difficulties Encountered
-In sorting and analysing data to depict theatre outcomes vs launch date, steps were fairly straightforward and simple with use of the Pivot Table feature in Excel and didn't provide many challenges. An interesting aspect to note here was the inclusion of the years column to use as a filter for the final Pivot Table data - although filtering for individual years can provide some insight on the data at hand, its inclusion had no effect on the final visualization of the data of interest. 
+In sorting and analysing data to depict theatre outcomes vs launch date, steps were fairly straightforward and simple with use of the Pivot Table feature in Excel, and didn't provide many challenges. An interesting aspect to note, however, was the inclusion of the years column to use as a filter for the final Pivot Table data - although filtering for individual years can provide some insight on the data at hand, its inclusion had no effect on the final visualization of the data of interest. 
 
 Performing analysis on outcomes based on goals, however, presented a couple of challenges through a longer series of steps. 
-
 The first challenge was the small executional error of using the COUNTIF function rather than COUNTIFS - without the plural form of the function, Excel will not allow more than one argument and thus, one cannot sort for multiple factors when applying the filter. This led to the second error of sorting data through filters on the original Kickstarter Data sheet (sorting for the subcategory "plays" and sorting outcomes into decending order so specific cells could be referenced - see picture below). The COUNTIF function was then used to only filter for the financial goal categorizations, referencing the respective cells from the Kickstarter data sheet that had been previously sorted. 
+
 <img width="686" alt="sorting_plays" src="https://user-images.githubusercontent.com/79600550/109438723-29cc3b00-79f9-11eb-8916-b5d31012a17d.png">
+
 <img width="850" alt="descending_outcomes" src="https://user-images.githubusercontent.com/79600550/109438767-4b2d2700-79f9-11eb-8570-837b8fefedf2.png">
+
 <img width="786" alt="COUNTIF_notIFS" src="https://user-images.githubusercontent.com/79600550/109438776-5718e900-79f9-11eb-8f7c-79dbb47ddebb.png">
 
-Although potentially an alternative way to sort the same data, this process yielded incorrect results. The series of challenges created here through one small overlook of execution were overcome simply by going back to the Module material, exploring the "show hint" resources, and catching the error in function execution.
+Although potentially an alternative way to sort the same data, this process yielded incorrect results. The series of challenges created here through one small oversight of execution, was overcome by simply going back to the Module material, exploring the "show hint" resources, and catching the error in functional execution.
 
 
 
