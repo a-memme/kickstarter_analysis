@@ -1,6 +1,6 @@
 # Kickstarting with Excel
 ## Overview of Project 
-Performing analysis on crowdfunding data, with specific interest in theatre campaign outcomes in relation to their launch dates and funding goals.
+Performing analysis on crowdfunding data, with specific interest in theatre (play) campaign outcomes in relation to their launch dates and funding goals.
 ### Purpose 
 To discover and provide insight on how the financial goals and specific launch dates of theatre campaigns affect their success,failure, and cancel rates. 
 ## Analysis and Challenges 
@@ -20,7 +20,7 @@ Outcomes were then filtered to display only successful, failed, and canceled cam
 From here, the sorted data was visualized using a line graph with markers.
 
 ### Analysis of Outcomes Based on Goals
-In performing analysis on outcomes based on financial goals, a number of steps were taken to isolate for the data of interest. A new table was created, depicting the financial goals of theatre campaigns into twelve categorizations (see picture below). Columns for the new table were created based on the outcome categorizatons of interest (foregoing live, as in the previous analysis), with the inclusion of total projects and percentages for each outcome categorization. 
+In performing analysis on outcomes based on financial goals, a number of steps were taken to isolate for the data of interest. A new table was created, depicting the financial goals of theatre campaigns into twelve categorizations (see picture below). Columns for the new table were created based on the outcome categorizatons of interest (foregoing live as in the previous analysis), with the inclusion of total projects and percentages for each outcome categorization. 
 
 <img width="767" alt="outcomes_goals_table" src="https://user-images.githubusercontent.com/79600550/109437509-1c13b700-79f3-11eb-8673-5286176b7a38.png">
 
@@ -34,7 +34,6 @@ Using the SUM function, the total number of projects were calculated for each fi
 <img width="853" alt="%_goals_outcomes" src="https://user-images.githubusercontent.com/79600550/109437642-de635e00-79f3-11eb-931e-33f596491dd9.png">
 
 To visualize the data, a line graph was created based on the previously curated financial goal categorizations and the percentage of successful, failed, and canceled campaigns.
-
 ### Challenges and Difficulties Encountered
 In sorting and analysing data to depict theatre outcomes vs launch date, steps were fairly straightforward and simple with use of the Pivot Table feature in Excel, and didn't provide many challenges. An interesting aspect to note, however, was the inclusion of the years column to use as a filter for the final Pivot Table data - although filtering for individual years can provide some insight on the data at hand, its inclusion had no effect on the final visualization of the data of interest. 
 
@@ -48,6 +47,14 @@ The first challenge was the small executional error of using the COUNTIF functio
 <img width="786" alt="COUNTIF_notIFS" src="https://user-images.githubusercontent.com/79600550/109438776-5718e900-79f9-11eb-8f7c-79dbb47ddebb.png">
 
 Although potentially an alternative way to sort the same data, this process yielded incorrect results. The series of challenges created here through one small oversight of execution, was overcome by simply going back to the Module material, exploring the "show hint" resources, and catching the error in functional execution.
+## Results 
+### Conclusions 
+From the data analysed regarding theatre outcomes and their respective launch dates, a number of conclusions can be made. Firstly, there is a greater number of successful theatre campaigns across all months of the year in comparison to failed and canceled, indicating that theatre campaigns are generally successful. 
+Second, there is an increase in both successful and failed theatre campaigns moving into the spring months, peaking in May, and tapering off through the rest of the summer. This trend is impacted by the fact that most theatre campaigns are launched during these months, thus providing increase in both active categories. However, as this trend is much more exaggerated in successful campaigns than in failed ones, there is indication that launching theatre campaigns within these months (roughly April-August) lends to an overall greater rate of success. 
+In regard to canceled campaigns, the greatest number occur in January, but remain generally stagnant through the rest of the year, with zero cancellations in October. 
+Finally, a spike in both successful and failed campaigns in October indicates an increase in total campaigns, but the larger increase in failed campaigns vs successful suggests that the month of October may be a less reliable month to launch a campaign in comparison to te spring/summer months mentioned above.
+
+
 
 
 
