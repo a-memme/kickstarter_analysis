@@ -1,6 +1,6 @@
 # Kickstarting with Excel
 ## Overview of Project 
-Performing analysis on crowdfunding data, with specific interest in theatre (play) campaign outcomes in relation to their launch dates and funding goals.
+Performing analysis on crowdfunding data, with specific interest in theatre and/or play campaign outcomes in relation to their launch dates and funding goals.
 ### Purpose 
 To discover and provide insight on how the financial goals of play campaigns and launch dates of theatre campaigns affect their success,failure, and cancel rates. 
 ## Analysis and Challenges 
