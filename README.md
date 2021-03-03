@@ -17,7 +17,7 @@ Outcomes were then filtered to display only successful, failed, and canceled cam
 
 <img width="440" alt="filtering_outcomes" src="https://user-images.githubusercontent.com/79600550/109406972-5295f700-794b-11eb-9909-299ff5f158f4.png">
 
-From here, the sorted data was visualized using a line graph with markers (see Resources folder).
+From here, the sorted data was visualized using a line graph with markers (see Resources folder - theatre_outcomes_vs_launch).
 
 ### Analysis of Outcomes Based on Goals
 In performing analysis on outcomes based on financial goals, a number of steps were taken to isolate for the data of interest. A new table was created, depicting the financial goals of theatre campaigns into twelve categorizations (see picture below). Columns for the new table were created based on the outcome categorizatons of interest (foregoing live as in the previous analysis), with the inclusion of total projects and percentages for each outcome categorization. 
@@ -33,7 +33,7 @@ Using the SUM function, the total number of projects were calculated for each fi
 <img width="789" alt="SUM_outcomes_goals" src="https://user-images.githubusercontent.com/79600550/109437606-acea9280-79f3-11eb-92b2-20d26b7b1c93.png">
 <img width="853" alt="%_goals_outcomes" src="https://user-images.githubusercontent.com/79600550/109437642-de635e00-79f3-11eb-931e-33f596491dd9.png">
 
-To visualize the data, a line graph was created based on the curated financial goal categorizations and the percentage of successful, failed, and canceled campaigns (see Resources folder).
+To visualize the data, a line graph was created based on the curated financial goal categorizations and the percentage of successful, failed, and canceled campaigns (see Resources folder - outcomes_vs_goals).
 ### Challenges and Difficulties Encountered
 In sorting and analysing data to depict theatre outcomes vs launch date, steps were fairly straightforward and simple with use of the Pivot Table feature in Excel, and didn't provide many challenges. A difficulty one may have encountered during this analysis could be overcoming a number of extra categorization elements when adding the date created conversion option to the rows field: here, two extra categorizations are automatically added to the field of question, sorting the data in years and quarters in addition to the month created (see picture below). To overcome this, one would simply need to remove these extra categorizations to display the data solely in reference to months.
 
